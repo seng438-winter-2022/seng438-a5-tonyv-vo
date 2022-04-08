@@ -107,7 +107,7 @@ As evidenced from the failure intesity graph above, the failure intensity shoots
 - Can be a complex process and not provide the exact information you need if done poorly
 
 # Assessment Using Reliability Demonstration Chart 
-
+## 3 plots for MTTFmin, twice and half of it for your test data
 ### Original MTTFmin RDC
 ![image](https://user-images.githubusercontent.com/8889264/162535223-cdc440de-48ef-4679-9904-93405619e6f4.png)
 ![image](https://user-images.githubusercontent.com/8889264/162535229-fd609625-be03-46b7-a312-30bd87165a83.png)
