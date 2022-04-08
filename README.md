@@ -1,5 +1,10 @@
-# seng438-assignment-5
+# SENG 438 Assignment 5
+## Group 38
+Group members: Tony Vo, Chace Nielson, Chad Holst, Olisehemeka Chukwuma
 
-# Guideline
-- read [assignment guideline](./Assignment5.md.md) 
-- commit and push output ([assignment output template](./Assignment5-ReportTemplate.md.md))
+## Deliverables
+- [Lab Report](Assignment5-LabReport.md) 
+- [Laplace_Test](LaPlace_Test.xlsx)
+- [Part One Graphs](PartOneGraphs.xlsx)
+- [Reliability Demonstration Charts SRTAT](RDC_SRTAT.xlsx)
+- [Reliability Growth Graphs_Part One](ReliabilityGrowthGraphs_PartOne.xlsx)
