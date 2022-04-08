@@ -60,6 +60,8 @@ The top two models used in SRTAT for failure intensity were the Geometric Model 
 
 The two models above were chosen because they were the best fit for the data set of time between failures. They had the required functionality and worked with the SRTAT application. They were able to handle the provided failure data and produce the appropriate information for failure intensity.
 
+While these graphs and charts show all the failure points the useful data is taken from points 1-12 as calculated from the Laplace tests.
+
 ### Tools for Testing Reliability from the provided data: Excel Data Method
 #### Time Between Failures Graph
 
