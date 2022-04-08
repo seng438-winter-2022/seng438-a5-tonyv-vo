@@ -134,7 +134,7 @@ Lastly, our **twice MTTFmin RDC** shows that our MTTFmin is approximately 2.4 no
 - Ideal for a system with a small number of failures
 - Easy to read if the software requires further testing or not
 - Provides visualization of the data to assist in analysis
-- Beneficial as a supplementary tool to other tools
+- Beneficial as a supplementary tool with other tools being used
 
 #### Disadvantages of RDC
 - Limited to a small number of failures 
