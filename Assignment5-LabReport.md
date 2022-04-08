@@ -98,13 +98,16 @@ As evidenced from the failure intesity graph above, the failure intensity shoots
 ## A discussion on the advantages and disadvantages of reliability growth analysis
 #### Advantages of reliability growth analysis
 - Measuring improvements is noticeable and can guide the decision-making process
-- Provides a good amount of information to help make decisions
-- Determine how much a product can be trusted or how reliable it is
+- Provides a good amount of information to help make decisions in regards to if the software is acceptable
+- DetermineS how much a product can be trusted or how reliable it is
+- Provides visualization of the data to assist in analysis
 
 #### Disadvantages of reliability growth analysis
 - Difficult to understand and required lots of time and effort to fully understand
 - Can be hard to find specific failures
 - Can be a complex process and not provide the exact information you need if done poorly
+- Only some ranges of data are considered useful for testing
+- Requires additional tests such as LaPlace to find such useful data before the analysis stage
 
 # Assessment Using Reliability Demonstration Chart 
 ### Original MTTFmin RDC
