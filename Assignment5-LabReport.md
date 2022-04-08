@@ -92,7 +92,6 @@ The model with the highest Log-Likelihood is DW3 (F) followed by IFRGSB (E,F) us
 
 ![image](https://user-images.githubusercontent.com/8889264/162534804-a9e92233-254e-4ab8-bcd2-0f6a980dd3ee.png)
 
-### Some conclusions on the assessment analysis using reliability growth testing
 ## A discussion on decision making given a target failure rate:
 As evidenced from the failure intesity graph above, the failure intensity shoots up early on. It also dips down after some time has passed. As time progressed, the failure intensity rate increased drastically. In the middle section of the data, the failure per hour does remain relatively stable. It would be a good idea to keep this time frame to have the best ratio between the failures per hour and the time as possible. Based off the failure intensity graph, we can conclude that our target failure rate is approximately 0.5 failures per hour.
 
