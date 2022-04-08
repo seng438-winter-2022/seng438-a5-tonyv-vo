@@ -139,7 +139,7 @@ Lastly, our **twice MTTFmin RDC** shows that our MTTFmin is approximately 2.4 no
 #### Disadvantages of RDC
 - Limited to a small number of failures 
 - Difficult to determine which confidence intervals/parameters should be used
-- Data can be misleading if not input properly or parameters are not set properly
+- Data can be misleading if the parameters are not set properly
 
 # Comparison of Results
 The results for both the Reliability Demonstration Charts (RDC) and the Reliability Growth Testing (RGT) shared similar observations and had some differences.
