@@ -129,12 +129,26 @@ Next, analyzing our **half MTTFmin RDC**, we notice that our MTTFmin is approxim
 
 Lastly, our **twice MTTFmin RDC** shows that our MTTFmin is approximately 2.4 normalized MTTF as our this is where our plot crosses the Accept line.
 
+## A discussion on the advantages and disadvantages of reliability growth analysis
+#### Advantages of RDC
+- Ideal for a system with a small number of failures
+- Easy to read if the software requires further testing or not
+- Provides visualization of the data to assist in analysis
+- Beneficial as a supplementary tool to other tools
+
+#### Disadvantages of RDC
+- Limited to a small number of failures 
+- Difficult to determine which confidence intervals/parameters should be used
+- Data can be misleading if not input properly or parameters are not set properly
+
 # Comparison of Results
 The results for both the Reliability Demonstration Charts (RDC) and the Reliability Growth Testing (RGT) shared similar observations and had some differences.
 
-The Reliability Demonstration Charts (RDC) gave more information regarding MTTFs, and we used that information to produce the relevant output. This provided a useful data set that would help in the decision-making process. We could use all the data for the tests but the particular tool we used only allowed us to use the first 5 data points. This methodology uses multiple MTTFs to provide a larger range of data to consider. This can lead to more information regarding reliability being available.
+The Reliability Demonstration Charts (RDC) gave more information regarding MTTFs, and we used that information to produce the relevant output. This provided a useful data set that would help in the decision-making process. We could use all the data for the tests but the particular tool we used only allowed us to use the first 5 data points. This methodology uses multiple MTTFs to provide a larger range of data to consider. This can lead to more information regarding reliability being available. 
 
 The Reliability Growth Testing (RGT) had a focus on failure intensity. This gave a particularly interesting look at the data with respect to time. The RGT only had a smaller useful data range that could be used by the method. This could be seen as limiting as some data isn’t used, but it could also be seen as a more accurate representation of the results. Since the Laplace testing was first used to get a useful data range to increase the accuracy of the results. It only used a single MTTF which has a limited range of results.
+
+We can conclude that RDC is beneficial for a small amount of failures with any range of useful data; however, RGT is useful for a large amount of failures but only with a certain range of useful data. 
 
 # Discussion on Similarity and Differences of the Two Techniques
 Both techniques are based on inter failure times. However, the difference is that RDC is always also based on a target failure rate. Reliability growth analysis can be based on failure count and failure rate instead of just inter failure times. We learned that inter failure times are quite useful when evaluating the reliability of a SUT. 
@@ -148,6 +162,6 @@ In this assignment, each member of the group started off by learning how the too
 Our main difficulty was in understanding how this lab's tools worked. We found it difficult to find documentation, so we had to manually manipulate the given data. The tools the lab used were very new to each member of the group so it required a lot of effort and time to begin to understand the components of the assignment. The tools were very challenging to use and took a lot of time to understand. The group was eventually able to learn how to use the tools and implement the solutions to the assignment problems after a considerable amount of time.
 
 # Comments/feedback on the lab itself
-The lab was difficult to understand. We felt it gave the basics of the material and left us to learn and understand what to do on our own. It would have been helpful to have more documentation or at least links to the documentation of the tools. Furthermore, we found it difficult to do the Laplace test. Although we found formulas online and in the slides, there were not many tools available online that would allow us to check our results to know if our Excel formula was correct. Once we were able to understand what the lab was asking us to do and also how the tools worked we were able to make some progress. 
+The lab was difficult to understand. The dataset provided was only meant for one tool and some of the column labelling was not clear. We felt it gave the basics of the material and left us to learn and understand what to do on our own. It would have been helpful to have more documentation or at least links to the documentation of the tools. Furthermore, we found it difficult to do the Laplace test. Although we found formulas online and in the slides, there were not many tools available online that would allow us to check our results to know if our Excel formula was correct. Once we were able to understand what the lab was asking us to do and also how the tools worked we were able to make some progress. 
 
 The lab provided some insight into using data to determine the reliability of a software under test. In doing this assignment, we learned that the field of Software Testing, Reliability, and Quality can be complicated and may require a multitude of tools to interpret the data. We were able to gain some insight as to how things might work in a professional environment.
