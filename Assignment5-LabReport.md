@@ -129,7 +129,7 @@ Next, analyzing our **half MTTFmin RDC**, we notice that our MTTFmin is approxim
 
 Lastly, our **twice MTTFmin RDC** shows that our MTTFmin is approximately 2.4 normalized MTTF as our this is where our plot crosses the Accept line.
 
-## A discussion on the advantages and disadvantages of reliability growth analysis
+## A discussion on the advantages and disadvantages of RDC
 #### Advantages of RDC
 - Ideal for a system with a small number of failures
 - Easy to read if the software requires further testing or not
